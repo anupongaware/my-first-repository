@@ -43,9 +43,73 @@
  *
  *        -สุดท้ายเราจะสร้าง commit อันใหม่ขึ้นมา เราจะใช้คำสั่ง "git commit"
  *
- * ddd
  *
- * 3. การใช้งาน Git History , Git Blame and Git Checked out
+ * 3. การใช้งาน Git History , Git Blame and Git Checke out
+ *        - การใช้ Git History คือการใช้ "git log" แล้วดูว่า เรา commit ไปกี่ครั้งแล้ว
+ *
+ *        - Git blame คือการบอกรายละเอียดใน git len จะบอกว่ามี ใครเข้ามาแก้ไขบ้าง
+ *
+ *        - Git checke out คือการ ย้ายไปยัง commit ที่เราต้องการ หรือ commit ในอดีต
+ *
+ * 4. Git restore
+ *
+ *        - คือการ ยกเลิกการเปลี่ยนแปลง ให้ code กลับมาเป็นเหมือนเดิม โดยใช้คำสั่ง "git restore <filename>"
+ *        - กู้ไฟล์มาออก จาก commit เก้าๆ ที่เคยลบไปแล้ว กลับมาได้
+ *
+ *
+ *
+ *
+ *
+ * - Lesson3: Remote and Collabation
+ * 1. Branching
+ *        branching คือ การแยกตัวออกมาจาก branch หลัก
+ *        ประโยชน์  ช่วยในการจัดเก็บการเปลี่ยนแปลง
+ *
+ * 2. Git branch
+ *        คือ pointer ที่ชี้ไปยัง commit commit หนึ่ง
+ *
+ *        การสร้าง branch ใหม่ขึ้นมา ได้แก่ "git branch <branch_name>"
+ *
+ *        หรือ การใช้ "git checkout -b <new_branch_name>" == create a branch then switch to it
+ *
+ *        ส่วนการเปลี่ยน branch จะใช้ "git checkout <branch_name>"
+ *
+ *        คำสั่งอื่นๆ "git branch" == list local branch,  "git branch -m" == rename current branch
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  *
  *
  */
